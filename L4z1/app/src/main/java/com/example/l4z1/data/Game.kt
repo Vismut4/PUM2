@@ -1,0 +1,12 @@
+package com.example.l4z1.data
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "games")
+data class Game(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val title: String,
+    val genre: String,
+    val isFavorite: Boolean = false
+)
