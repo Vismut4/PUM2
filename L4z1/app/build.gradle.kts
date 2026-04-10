@@ -52,6 +52,8 @@ dependencies {
     ksp("androidx.room:room-compiler:2.8.0")
     implementation("androidx.room:room-ktx:2.8.0")
 
+    implementation("androidx.compose.material3:material3:1.2.0-alpha06")
+
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
